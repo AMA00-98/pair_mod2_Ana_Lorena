@@ -1,3 +1,5 @@
+USE tienda_zapatillas;
+
 INSERT INTO Zapatillas(id_zapatilla, modelo, color, marca, talla) -- Ejercicio 2
 VALUES(1, "XQYUN", "negro", "Nike", 42),
 	(2, "Universidad de Pensilvania", "Rosas", "Nike", 39),

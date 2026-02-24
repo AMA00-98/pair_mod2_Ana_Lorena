@@ -1,8 +1,8 @@
 -- Crear la base de datos
-CREATE SCHEMA `tienda_zapatillas`;
+CREATE SCHEMA tienda_zapatillas;
 
 -- Seleccionar la base de datos para usarla
-USE `tienda_zapatillas`;
+USE tienda_zapatillas;
 
 -- Tabla Zapatillas
 CREATE TABLE Zapatillas (

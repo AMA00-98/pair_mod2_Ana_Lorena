@@ -1,8 +1,6 @@
-CREATE SCHEMA `tienda_zapatillas`;
+USE tienda_zapatillas;
 
-USE `tienda_zapatillas`;
-
-ALTER TABLE Zapatillas
+ALTER TABLE Zapatillas -- Ejercicio 1
 ADD COLUMN marca VARCHAR(45) NOT NULL,
 ADD COLUMN talla INT NOT NULL;
 
